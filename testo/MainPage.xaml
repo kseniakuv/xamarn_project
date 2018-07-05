@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:testo" x:Class="testo.MainPage">
+   <ContentPage.ToolbarItems>
+           <ToolbarItem   Text="Months" Order="Primary" Clicked="MonthClick"  />
+
+   </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <ScrollView>
+        <StackLayout Padding="70,20,70,0" Spacing="20">    
+            <Label Text="Home" FontSize="25" HorizontalOptions="Center"/>  
+            <!--Phone dial  
+            <Entry x:Name="MsgTo" Placeholder="PhoneNumber" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="Message" Placeholder="MessageText" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="SMS"   Clicked="BtnSend_Click" BackgroundColor="White"/>    
+  
+         SMS 
+            <Entry x:Name="PhoneNumber" Placeholder="PhoneNumber" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="CALL"  Clicked="BtnCall_Click" BackgroundColor="White"/>  
+          
+      Email
+            <Entry x:Name="EmailTo" Placeholder="EmailTo" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="EmailSubject" Placeholder="Subject" HorizontalOptions="FillAndExpand"/>    
+            <Entry x:Name="EmailBody" Placeholder="MessageText" HorizontalOptions="FillAndExpand"/>    
+            <Button Text="EMAIL" Clicked="BtnEmail_Click" BackgroundColor="White"/>-->   
+
+<!--            <TimePicker
+            PropertyChanged="MainActivity.go(1)"/> -->
+     </StackLayout>  
+           
+    </ScrollView>
+      
+</ContentPage>
